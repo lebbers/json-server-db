@@ -1,10 +1,25 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
+  "lobby": {
+    "name": "MyHospital",
+    "description": "A lobby for My Hospital",
+    "visitors": [
+      {
+        "id": 0,
+        "fullName": "William Smith",
+        "birthDate": "1990-11-10T23:00:00.000Z",
+        "email": "william.smith@example.com",
+        "priority": "High"
+      },
+      {
+        "id": 2,
+        "fullName": "John Jones",
+        "birthDate": "1950-05-01T23:00:00.000Z",
+        "email": "jjones@example.com",
+        "mobileNumber": "00352312456",
+        "priority": "Low"
+      }
+    ]
+  },
   "profile": {
     "name": "typicode"
   }
